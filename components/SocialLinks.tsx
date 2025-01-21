@@ -89,6 +89,20 @@ const SocialLinks = () => {
           </span>
         </Button>
       )}
+       {socialLinks.notion && (
+        <Button
+          className="btn-icon-only rounded-circle"
+          color="notion"
+          href={socialLinks.notion}
+          target="_blank"
+          rel="noopener"
+          aria-label="Notion"
+        >
+          <span className="btn-inner--icon">
+          <img className="fa" src="img/icons/common/n-solid.svg"></img>
+          </span>
+        </Button>
+      )}
     </div>
   );
 };

@@ -12,68 +12,71 @@ import {
 } from "./types/sections";
 
 export const greetings: GreetingsType = {
-  name: "Hanzla Tauqeer",
-  title: "Hi all, I'm Hanzla",
+  name: "Wei Zhang",
+  title: "Hi all, I'm Wei",
   description:
-    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
-  resumeLink: "#",
+    `I am experienced full-stack developer specializing in web and desktop applications for businesses of all sizes. Whether extending existing systems or building new solutions, I deliver tailored, impactful results.`,
+  desc:`Currently I am pursuing an MSc in Computational Science at Laurentian University with a focus on AI, I aim to apply and expand my expertise in software development and emerging technologies.`,
+  resumeLink: "https://zw3413.github.io/",
 };
 
 export const openSource = {
-  githubUserName: "1hanzla100",
+  githubUserName: "zw3413",
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  email: "mailto:hanzla.tauqeer123@gmail.com",
-  linkedin: "https://www.linkedin.com/in/1hanzla100/",
-  github: "https://github.com/1hanzla100",
-  instagram: "https://www.instagram.com/__hanzla100",
-  // facebook: 'https://www.facebook.com/1hanzla100',
-  // twitter: 'https://twitter.com/1hanzla100',
+  email: "mailto:zhangweicalm@gmail.com",
+  //linkedin: "https://www.linkedin.com/in/zw3413/",
+  github: "https://github.com/zw3413",
+  //instagram: "https://www.instagram.com/zw3413",
+  // facebook: 'https://www.facebook.com/zw3413',
+  twitter: 'https://x.com/zhangweicalm',
+  
 };
 
 export const skillsSection: SkillsSectionType = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: '"FULL STACK" and "FULL CYCLE" development in many years.',
   data: [
     {
-      title: "Full Stack Development",
+      title: "Tech stacks for delivering value",
       lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
-        emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"),
-        emoji("⚡ Building responsive static websites using Next.js"),
-        emoji("⚡ Building RESTful APIs in Django & Django REST Framework"),
+        emoji("⚡ Building Web Application with JavaEE, Nextjs"),
+        emoji("⚡ Building Desktop Application with C#, Electron"),
+        emoji("⚡ Building ComputerVision/WebCrawling with Python"),
       ],
       softwareSkills: [
         {
-          skillName: "Python",
-          iconifyTag: "logos:python",
+          skillName: "Spring",
+          iconifyTag: "logos:spring",
         },
         {
-          skillName: "Django",
-          iconifyTag: "vscode-icons:file-type-django",
-        },
-        {
-          skillName: "JavaScript",
-          iconifyTag: "logos:javascript",
-        },
-        {
-          skillName: "Reactjs",
-          iconifyTag: "vscode-icons:file-type-reactjs",
+          skillName: "Vue",
+          iconifyTag: "vscode-icons:file-type-vue",
         },
         {
           skillName: "Nextjs",
           iconifyTag: "vscode-icons:file-type-light-next",
+        },
+    
+        {
+          skillName: "Redis",
+          iconifyTag: "logos:redis",
         },
         {
           skillName: "AWS",
           iconifyTag: "logos:aws",
         },
         {
-          skillName: "Heroku",
-          iconifyTag: "logos:heroku-icon",
+          skillName: "Chrome Extension",
+          iconifyTag: "logos:chrome",
+        },
+        {
+          skillName: "PostgreSQL",
+          iconifyTag: "logos:postgresql",
         },
         {
           skillName: "Github",
@@ -82,6 +85,40 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: "Docker",
           iconifyTag: "logos:docker-icon",
+        },
+   
+        {
+          skillName: "OpenCV",
+          iconifyTag: "logos:opencv",
+        },
+        {
+          skillName: "FastAPI",
+          iconifyTag: "logos:fastapi-icon",
+        },
+        {
+          skillName: "Pytorch",
+          iconifyTag: "logos:pytorch",
+        },
+        {
+          skillName: "Java",
+          iconifyTag: "logos:java",
+        },
+        {
+          skillName: "C-Sharp",
+          iconifyTag: "logos:c-sharp",
+        },
+        {
+          skillName: "Python",
+          iconifyTag: "logos:python",
+        },
+    
+        {
+          skillName: "JavaScript",
+          iconifyTag: "logos:javascript",
+        },
+        {
+          skillName: "Go",
+          iconifyTag: "logos:go",
         },
       ],
     },
@@ -105,49 +142,62 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: "University of Central Punjab",
-    subHeader: "Bachelor of Science in Computer Science",
-    duration: "September 2017 - April 2020",
+    schoolName: "Laurentian University",
+    subHeader: "Master of Science in Computational Science",
+    duration: "September 2024 - December 2025",
     desc: "",
-    grade: "Grade A",
+    grade: "",
     descBullets: [], // Array of Strings
   },
+  {
+    schoolName: "China Jiliang University",
+    subHeader: "Bachelor of Eng. in Measurement and Control",
+    duration: "September 2007 - July 2011",
+    desc: "",
+    grade: "",
+    descBullets: [], // Array of Strings
+  },
+
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: "Django Developer",
-    company: "Meganos Software",
-    companyLogo: "/img/icons/common/meganos.png",
-    date: "Aug 2022 - Present",
-    desc: "I crafted backends for diverse web apps, APIs, and WebSockets in e-commerce, podcasts, and property management. Managed server upkeep, deployments on Linux, Heroku, and AWS S3. Implemented PyTest for automated unit and integration testing, slashing 4 hours of manual testing each sprint, fortifying a dependable and flawless code foundation.",
+    "role": "MES Software Developer",
+    "company": "Foxconn Industrial Internet",
+    "companyLogo": "/img/icons/common/fii.png",
+    "date": "Jan 2021 - March 2024",
+    "desc": "Developed and maintained a comprehensive Shopfloor system.",
+    "descBullets": [
+      "Built a full-stack Java-based web UI for MES management and configuration.",
+      "Developed a high-volume, high-concurrency API service using Go.",
+      "Created a C#.Net-based user interface for production line operators.",
+      "Implemented high-availability data storage solutions utilizing PostgreSQL and Datanews." 
+    ]
   },
   {
-    role: "Full Stack Developer",
-    company: "Duseca Software",
-    companyLogo: "/img/icons/common/duseca_software_logo.jpeg",
-    date: "Jan 2022 - Sept 2023",
-    desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
+    "role": "Java Full Stack Developer",
+    "company": "21 Century Aerospace Technology",
+    "companyLogo": "/img/icons/common/21at.png",
+    "date": "Oct 2017 - Dec 2020",
+    "desc": "Developed Java-based systems with GIS integration for government agencies.",
+    "descBullets": [
+      "Developed and implemented systems with GIS features using tools like OpenLayers and GeoServer.",
+      "Proficient in a full-stack environment including Java, PostgreSQL, Redis, OpenLayers, Electron, and more."
+    ]
   },
   {
-    role: "Full Stack Developer",
-    company: "ZRTechnologies",
-    companyLogo: "/img/icons/common/zrtech.jpeg",
-    date: "Aug 2022 - Jun 2023",
-    desc: "Crafting diverse web applications, I've elevated functionality and user engagement. Spearheaded Visual Portfolio, leveraging AI for captivating presentations from parsed text. Proficiently set up and optimized applications on Linux servers, guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
-  },
-  {
-    role: "Backend Developer",
-    company: "Bleed-AI",
-    companyLogo: "/img/icons/common/bleedAI.jpg",
-    date: "Sept 2021 - Oct 2021",
-    desc: "As a Django developer at Bleed AI, I integrated a computer vision AI model to process YouTube URLs on a website. I used Django Channels and Websockets to show real-time processing and implemented threading to run multiple instances of the AI model. I also used jQuery for UI rendering and deployed the website on a Heroku server.",
-  },
-];
+    "role": "Senior Automation Engineer & Project Manager",
+    "company": "DWFritz Automation",
+    "companyLogo": "/img/icons/common/dwf.jpg",
+    "date": "Jan 2014 - Oct 2017",
+    "desc": "Served as a key member of the field team.",
+    "descBullets": [
+      "Developed and implemented custom Machine Vision programming tailored to customer product requirements.",
+      "Successfully oversaw hardware installation, calibration, and final delivery of projects.",
+      "Effectively managed and mentored project teams."
+    ]
+  }
+]
 
 export const projects: ProjectType[] = [
   {
@@ -196,18 +246,18 @@ export const feedbacks: FeedbackType[] = [
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: "Hanzla Tauqeer",
+  title: "Wei Zhang",
   description: greetings.description,
-  author: "Hanzla Tauqeer",
-  image: "https://avatars.githubusercontent.com/u/59178380?v=4",
-  url: "https://developer-portfolio-1hanzla100.vercel.app",
+  author: "Wei Zhang",
+  image: "https://avatars.githubusercontent.com/u/32606248?v=4",
+  url: "",
   keywords: [
-    "Hanzla",
-    "Hanzla Tauqeer",
-    "@1hanzla100",
-    "1hanzla100",
+    "WeiZhang",
+    "Wei Zhang",
+    "@zhangweicalm",
+    "zw3413",
     "Portfolio",
-    "Hanzla Portfolio ",
-    "Hanzla Tauqeer Portfolio",
+    "Wei Portfolio ",
+    "Wei Zhang Portfolio",
   ],
 };

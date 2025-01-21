@@ -34,6 +34,7 @@ const Greetings = () => {
                 <Col lg="6">
                   <h1 className="display-3 text-white">{greetings.title + " "}</h1>
                   <p className="lead text-white">{greetings.description}</p>
+                  <p className="lead text-white">{greetings.desc}</p>
                   <SocialLinks />
                   {greetings.resumeLink && (
                     <div className="btn-wrapper my-4">
@@ -41,11 +42,12 @@ const Greetings = () => {
                         className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                         color="default"
                         href={greetings.resumeLink}
+                        target = "_blank"
                       >
                         <span className="btn-inner--icon mr-1">
                           <i className="fa fa-file" />
                         </span>
-                        <span className="btn-inner--text">See My Resume</span>
+                        <span className="btn-inner--text">See My Blog</span>
                       </Button>
                     </div>
                   )}
