@@ -112,7 +112,10 @@ export const skillsSection: SkillsSectionType = {
           skillName: "Python",
           iconifyTag: "logos:python",
         },
-    
+        {
+          skillName: "NodeJS",
+          iconifyTag: "logos:nodejs",
+        },
         {
           skillName: "JavaScript",
           iconifyTag: "logos:javascript",
