@@ -15,8 +15,9 @@ export const greetings: GreetingsType = {
   name: "Wei Zhang",
   title: "Hi all, I'm Wei",
   description:
-    `I am experienced full-stack developer specializing in web and desktop applications for businesses of all sizes. Whether extending existing systems or building new solutions, I deliver tailored, impactful results.`,
-  desc:`Currently I am pursuing an MSc in Computational Science at Laurentian University with a focus on AI, I aim to apply and expand my expertise in software development and emerging technologies.`,
+    `I am an experienced full-stack developer specializing in web and desktop applications for businesses of all sizes. Whether enhancing existing systems or building innovative solutions from scratch, I deliver tailored, impactful results.`,
+  desc:`Currently pursuing an MSc in Computational Science at Laurentian University with a focus on AI, I am eager to apply and expand my expertise in software development and cutting-edge technologies.`,
+  desc1 :`Feel free to reach out for any project or task where my skills can add value.`,
   resumeLink: "https://zw3413.github.io/",
 };
 
@@ -201,25 +202,28 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
-    name: "developer-portfolio",
-    desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-    github: "https://github.com/1hanzla100/developer-portfolio",
-    link: "https://developer-portfolio-1hanzla100.vercel.app/",
+    name: "Blast-Vision",
+    desc: "A system for balsting evaluation with computer vision, this is a project that we use to attend the Google DevFes.",
+    github: "https://github.com/zw3413/blast",
+    link: "https://aoi.bakers.top",
   },
   {
-    name: "Giebo",
-    desc: "A Podcast Platform where creators can easily publish and sell their podcasts, and users can purchase with Handcash BitcoinSV, the future of fast and secure transactions.",
-    link: "https://gibeo.io/",
+    name: "WeSudbury",
+    desc: "A carpool system that inspired by enomous messages on requesting or provding rides in fackbook and other social media.",
+    github:"https://github.com/zw3413/wesudbury.com",
+    link: "https://wesudbury.com",
   },
   {
-    name: "O Mejor Oferta",
-    desc: "O Mejor Oferta is a mobile marketplace for buying and selling items nearby, helping users find deals on things they want and make money from items they no longer need.",
-    link: "https://play.google.com/store/apps/details?id=com.duseca.mejor_oferta",
+    name: "Subtitlex",
+    desc: "A group of application including webUI, python tools, chrome extension ...  to provide a comprehensive online subtitle experience",
+    github: "https://github.com/zw3413/subtitles",
+    link: "https://subtitlex.xyz",
   },
   {
-    name: "Hooligan Culture",
-    desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.",
-    link: "https://hooliganculture.com/",
+    name: "Grid World - Reinforcement Learning",
+    desc: "A utilization of reinforcement learning in the game of grid word, to trin the agent automately find path to target.",
+    github :"https://github.com/zw3413/q_learning", 
+    link: "https://www.youtube.com/watch?v=vOgjJQa6MWA",
   },
 ];
 

@@ -35,6 +35,7 @@ const Greetings = () => {
                   <h1 className="display-3 text-white">{greetings.title + " "}</h1>
                   <p className="lead text-white">{greetings.description}</p>
                   <p className="lead text-white">{greetings.desc}</p>
+                  <p className="lead text-white">{greetings.desc1}</p>
                   <SocialLinks />
                   {greetings.resumeLink && (
                     <div className="btn-wrapper my-4">
@@ -47,7 +48,7 @@ const Greetings = () => {
                         <span className="btn-inner--icon mr-1">
                           <i className="fa fa-file" />
                         </span>
-                        <span className="btn-inner--text">See My Blog</span>
+                        <span className="btn-inner--text">Visit My Blog</span>
                       </Button>
                     </div>
                   )}

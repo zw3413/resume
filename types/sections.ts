@@ -20,6 +20,7 @@ export type GreetingsType = {
   title: string;
   description?: string;
   desc?:string;
+  desc1? :string;
   resumeLink?: string;
 };
 

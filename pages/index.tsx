@@ -18,11 +18,12 @@ export default function Home({ githubProfileData }: { githubProfileData: any }) 
       <SEO />
       <Navigation />
       <Greetings />
+      <Projects />
       <Skills />
       {/* <Proficiency /> */}
       <Experience />
       {/* <Feedbacks /> */}
-      <Projects />
+    
       {/* <Education /> */}
       <GithubProfileCard {...githubProfileData} />
 
