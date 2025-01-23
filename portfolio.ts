@@ -29,7 +29,7 @@ export const contact = {};
 
 export const socialLinks: SocialLinksType = {
   email: "mailto:zhangweicalm@gmail.com",
-  linkedin: "https://www.linkedin.com/in/wei-zhang-b5b966328/",
+  linkedin: "https://www.linkedin.com/in/zw3413",
   github: "https://github.com/zw3413",
   //instagram: "https://www.instagram.com/zw3413",
   // facebook: 'https://www.facebook.com/zw3413',
