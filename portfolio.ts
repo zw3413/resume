@@ -13,7 +13,7 @@ import {
 
 export const greetings: GreetingsType = {
   name: "Wei Zhang",
-  title: "Hi all, I'm Wei",
+  title: "Hi, I'm Wei",
   description:
     `I am an experienced full-stack developer specializing in web and desktop applications for businesses of all sizes. Whether enhancing existing systems or building innovative solutions from scratch, I deliver tailored, impactful results.`,
   desc:`Currently pursuing an MSc in Computational Science at Laurentian University with a focus on AI, I am eager to apply and expand my expertise in software development and cutting-edge technologies.`,
@@ -166,7 +166,7 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
-    "role": "MES Software Developer",
+    "role": "MES Software Engineer",
     "company": "Foxconn Industrial Internet",
     "companyLogo": "/img/icons/common/fii.png",
     "date": "Jan 2021 - March 2024",
@@ -179,7 +179,7 @@ export const experience: ExperienceType[] = [
     ]
   },
   {
-    "role": "Java Full Stack Developer",
+    "role": "Java Full Stack Engineer",
     "company": "21 Century Aerospace Technology",
     "companyLogo": "/img/icons/common/21at.png",
     "date": "Oct 2017 - Dec 2020",
@@ -190,7 +190,7 @@ export const experience: ExperienceType[] = [
     ]
   },
   {
-    "role": "Senior Automation Engineer & Project Manager",
+    "role": "Senior Engineer & Project Manager",
     "company": "DWFritz Automation",
     "companyLogo": "/img/icons/common/dwf.jpg",
     "date": "Jan 2014 - Oct 2017",
@@ -206,25 +206,26 @@ export const experience: ExperienceType[] = [
 export const projects: ProjectType[] = [
   {
     name: "Blast-Vision",
-    desc: "A system for balsting evaluation with computer vision, this is a project that we use to attend the Google DevFes.",
+    media :"gif/blast_vision.gif",
+    desc: "A system for balsting evaluation with computer vision, this is a project that we use to attend the Google DevFest.",
     github: "https://github.com/zw3413/blast",
     link: "https://aoi.bakers.top",
   },
   {
-    name: "WeSudbury",
+    name: "WeSudbury.com",
     desc: "A carpool system that inspired by enomous messages on requesting or provding rides in fackbook and other social media.",
     github:"https://github.com/zw3413/wesudbury.com",
     link: "https://wesudbury.com",
   },
   {
-    name: "Subtitlex",
-    desc: "A group of application including webUI, python tools, chrome extension ...  to provide a comprehensive online subtitle experience",
+    name: "SubtitleX.xyz",
+    desc: "A group of application including webUI, python tools, chrome extension ...  to provide a comprehensive online subtitle experience.",
     github: "https://github.com/zw3413/subtitles",
     link: "https://subtitlex.xyz",
   },
   {
     name: "Grid World - Reinforcement Learning",
-    desc: "A utilization of reinforcement learning in the game of grid word, to trin the agent automately find path to target.",
+    desc: "A utilization of reinforcement learning in the game of grid word, to train the agent automately find path to target.",
     github :"https://github.com/zw3413/q_learning", 
     link: "https://www.youtube.com/watch?v=vOgjJQa6MWA",
   },
