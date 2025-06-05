@@ -16,7 +16,7 @@ const Projects = () => {
               </div>
             </div> */}
             <div className="pl-4">
-              <h4 className="display-3 text-info">Elvin's Side Projects</h4>
+              <h4 className="display-3 text-info">My Side Projects</h4>
             </div>
           </div>
           <div className="projects-container">

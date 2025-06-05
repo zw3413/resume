@@ -303,9 +303,9 @@ export const feedbacks: FeedbackType[] = [
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: "Wei Zhang",
+  title: "Elvin",
   description: greetings.description,
-  author: "Wei Zhang",
+  author: "Elvin / Wei Zhang",
   image: "https://avatars.githubusercontent.com/u/32606248?v=4",
   url: "",
   keywords: [
