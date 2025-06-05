@@ -15,9 +15,9 @@ const Projects = () => {
                 <i className="ni ni-laptop text-info" />
               </div>
             </div> */}
-            <div className="pl-4">
+            {/* <div className="pl-4">
               <h4 className="display-3 text-info">My Side Projects</h4>
-            </div>
+            </div> */}
           </div>
           <div className="projects-container">
             {projects.map((data, i) => (
