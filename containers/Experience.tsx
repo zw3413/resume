@@ -7,27 +7,27 @@ import Fade from "react-reveal/Fade";
 const Experience = () => {
   return (
     experience && (
-      <Fade bottom duration={2000}>
+
         <section className="section section-lg">
-          <Container>
-            <div className="d-flex p-4">
-              <div>
+          <Container style={{ maxWidth : '900px'}}>
+            <div className="d-flex p-4 justify-content-center">
+              {/* <div>
                 <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
                   <i className="ni ni-briefcase-24 text-info" />
                 </div>
-              </div>
+              </div> */}
               <div className="pl-4">
-                <h4 className="display-3 text-info">Experience</h4>
+                <h4 className="display-3 text-info">Education and Work Experience</h4>
               </div>
             </div>
-            <Row className="row-grid align-items-start">
+            <Row className="align-items-start flex-column">
               {experience.map((data, i) => {
                 return <ExperienceCard key={i} {...data} />;
               })}
             </Row>
           </Container>
         </section>
-      </Fade>
+
     )
   );
 };

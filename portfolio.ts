@@ -39,7 +39,7 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: "What I do",
-  subTitle: '"FULL STACK" and "FULL CYCLE" development in many years.',
+  subTitle: 'FULL STACK development in many years.',
   data: [
     {
       title: "Tech stacks for delivering value",
@@ -165,70 +165,119 @@ export const educationInfo: EducationType[] = [
 ];
 
 export const experience: ExperienceType[] = [
+    {
+    "role": "Pursuing M.Sc. in Computational Science",
+    "company": "Laurentian University",
+    "companyLogo": "/img/icons/common/laurentian.svg",
+    "date": "Sep. 2024 - Now",
+    "desc": "Studying Mathematics and Computer Science, with a focus on developing AI algorithms and applications.",
+    // "descBullets": [
+    //   "Built a full-stack Java-based web UI for MES management and configuration.",
+    //   "Developed a high-volume, high-concurrency API service using Go.",
+    //   "Created a C#.Net-based user interface for production line operators.",
+    //   "Implemented high-availability data storage solutions utilizing PostgreSQL and Datanews." 
+    // ]
+  },
   {
     "role": "MES Software Engineer",
     "company": "Foxconn Industrial Internet",
     "companyLogo": "/img/icons/common/fii.png",
     "date": "Jan 2021 - March 2024",
-    "desc": "Developed and maintained a comprehensive Shopfloor system.",
-    "descBullets": [
-      "Built a full-stack Java-based web UI for MES management and configuration.",
-      "Developed a high-volume, high-concurrency API service using Go.",
-      "Created a C#.Net-based user interface for production line operators.",
-      "Implemented high-availability data storage solutions utilizing PostgreSQL and Datanews." 
-    ]
+    "desc": "Developed and Administrate a Large-scale Shopfloor Control System. JAVA/GOLANG/POSTGRESQL/C#",
+    // "descBullets": [
+    //   "Built a full-stack Java-based web UI for MES management and configuration.",
+    //   "Developed a high-volume, high-concurrency API service using Go.",
+    //   "Created a C#.Net-based user interface for production line operators.",
+    //   "Implemented high-availability data storage solutions utilizing PostgreSQL and Datanews." 
+    // ]
   },
   {
     "role": "Java Full Stack Engineer",
     "company": "21 Century Aerospace Technology",
     "companyLogo": "/img/icons/common/21at.png",
     "date": "Oct 2017 - Dec 2020",
-    "desc": "Developed Java-based systems with GIS integration for government agencies.",
-    "descBullets": [
-      "Developed and implemented systems with GIS features using tools like OpenLayers and GeoServer.",
-      "Proficient in a full-stack environment including Java, PostgreSQL, Redis, OpenLayers, Electron, and more."
-    ]
+    "desc": "Developed Java-based systems with GIS features. JAVA/POSTGRESQL/GIS",
+    // "descBullets": [
+    //   "Developed and implemented systems with GIS features using tools like OpenLayers and GeoServer.",
+    //   "Proficient in a full-stack environment including Java, PostgreSQL, Redis, OpenLayers, Electron, and more."
+    // ]
   },
   {
     "role": "Senior Engineer & Project Manager",
     "company": "DWFritz Automation",
     "companyLogo": "/img/icons/common/dwf.jpg",
     "date": "Jan 2014 - Oct 2017",
-    "desc": "Served as a key member of the field team.",
-    "descBullets": [
-      "Developed and implemented custom Machine Vision programming tailored to customer product requirements.",
-      "Successfully oversaw hardware installation, calibration, and final delivery of projects.",
-      "Effectively managed and mentored project teams."
-    ]
+    "desc": "Served as a key member of the field service team. AUTOMATION",
+    // "descBullets": [
+    //   "Developed and implemented custom Machine Vision programming tailored to customer product requirements.",
+    //   "Successfully oversaw hardware installation, calibration, and final delivery of projects.",
+    //   "Effectively managed and mentored project teams."
+    // ]
   }
 ]
 
 export const projects: ProjectType[] = [
   {
+    name: "eeg work",
+    media :"img/icons/common/eeg_view.png",
+    tech : ["Machine Learning","SVM", "EEGLAB"],
+    desc: "Analyse and classify non-linear dynamic feature of EEG data with Machine Learning Algorithms. ",
+    //github: "https://github.com/zw3413/ytb_nav_frontend",
+    //link: "https://you.bakers.top",
+  },
+  {
     name: "Blast-Vision",
-    media :"gif/blast_vision.gif",
-    desc: "A system for balsting evaluation with computer vision, this is a project that we use to attend the Google DevFest.",
+    //media :"gif/blast_vision.gif",
+    video :"https://www.youtube.com/embed/WSHFs48KRRk?si=VEhk7bVWZzowqUge",
+    tech :["OpenCV","Machine Learning","Kalman Filter", "TensorFlow"],
+    desc: "A system for balsting evaluation with computer vision, this is a project that we use to attend the Google DevFest. ",
     github: "https://github.com/zw3413/blast",
     link: "https://aoi.bakers.top",
   },
   {
+    name: "youtube helper",
+    media :"gif/xiayou.gif",
+    tech : ["AutoGen","LangChain"],
+    desc: "Fast youtube video comprehension, featuring summarization, outlining, and intuitive playback controls. ",
+    github: "https://github.com/zw3413/ytb_nav_frontend",
+    link: "https://you.bakers.top",
+  },
+  {
     name: "WeSudbury.com",
+    media: "gif/wesudbury_demo.gif",
+    tech:["NextJS"],
     desc: "A carpool system that inspired by enomous messages on requesting or provding rides in fackbook and other social media.",
     github:"https://github.com/zw3413/wesudbury.com",
     link: "https://wesudbury.com",
   },
-  {
-    name: "SubtitleX.xyz",
-    desc: "A group of application including webUI, python tools, chrome extension ...  to provide a comprehensive online subtitle experience.",
-    github: "https://github.com/zw3413/subtitles",
-    link: "https://subtitlex.xyz",
-  },
+
+
   {
     name: "Grid World - Reinforcement Learning",
+    video:"https://www.youtube.com/embed/vOgjJQa6MWA?si=L61Wao9KI7xxNvyQ",
+    tech:["Reinforcement Learning"],
     desc: "A utilization of reinforcement learning in the game of grid word, to train the agent automately find path to target.",
     github :"https://github.com/zw3413/q_learning", 
     link: "https://www.youtube.com/watch?v=vOgjJQa6MWA",
   },
+  {
+    name: "Image Recogination and Classification Based on ResNet",
+    video: "https://www.youtube.com/embed/HEfd3ewb_pc?si=IPFa6Jl0ElbSJa4u",
+    tech: ["ResNET", "CNN", "YOLO"],
+    desc: "Real-Time Image Classification with CNNs Using TransferLearning (ResNet).",
+    github :"https://github.com/zw3413/q_learning", 
+    link: "https://www.youtube.com/watch?v=vOgjJQa6MWA",
+  },
+  
+  {
+    name: "SubtitleX.xyz",
+    tech:["FastWhisper","Stripe","Chrome Extension"],
+    desc: "A group of application including webUI, python tools, chrome extension ...  to provide a comprehensive online subtitle experience. ",
+    github: "https://github.com/zw3413/subtitles",
+    link: "https://subtitlex.xyz",
+  },
+
+
 ];
 
 export const feedbacks: FeedbackType[] = [

@@ -31,9 +31,9 @@ const Navigation = () => {
             <UncontrolledCollapse
               toggler="#navbar_global"
               navbar
-              className={collapseClasses}
-              onExiting={onExiting}
-              onExited={onExited}
+              // className={collapseClasses}
+              // onExiting={onExiting}
+              // onExited={onExited}
             >
               <div className="navbar-collapse-header">
                 <Row>

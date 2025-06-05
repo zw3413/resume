@@ -16,12 +16,14 @@ export default function Home({ githubProfileData }: { githubProfileData: any }) 
   return (
     <div>
       <SEO />
-      <Navigation />
-      <Greetings />
+      {/* <Navigation />
+      <Greetings /> */}
+          
       <Projects />
-      <Skills />
-      {/* <Proficiency /> */}
       <Experience />
+      {/* <Skills /> */}
+      {/* <Proficiency /> */}
+ 
       {/* <Feedbacks /> */}
     
       {/* <Education /> */}

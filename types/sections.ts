@@ -80,7 +80,9 @@ export type ProjectType = {
   desc: string;
   github?: string;
   link?: string;
-  media? :string;
+  media?: string;
+  video?: string;
+  tech?: string[];
 };
 
 // * FEEDBACK SECTION

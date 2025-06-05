@@ -2,10 +2,11 @@ import React from "react";
 import { Card, CardBody, CardTitle, CardSubtitle, CardText, Col } from "reactstrap";
 import Fade from "react-reveal/Fade";
 import { ExperienceType } from "../types/sections";
+import { max } from "moment";
 
 const ExperienceCard = ({ companyLogo, company, role, date, desc, descBullets }: ExperienceType) => {
   return (
-    <Col lg="6">
+    // <Col lg="6">
       <Card style={{ flex: 1 }} className="shadow-lg--hover my-4 shadow border-0 text-center rounded h-100">
         <CardBody className="">
           <img
@@ -17,9 +18,9 @@ const ExperienceCard = ({ companyLogo, company, role, date, desc, descBullets }:
               top: "7rem",
               marginLeft: "auto",
               marginRight: "auto",
-              width: "8rem",
-              height: "8rem",
-              borderRadius: "50%",
+              minWidth: "8rem",
+              maxHeight: "8rem",
+              //borderRadius: "15%",
             }}
             className="shadow mb-3"
             alt={companyLogo}
@@ -31,7 +32,7 @@ const ExperienceCard = ({ companyLogo, company, role, date, desc, descBullets }:
             {role}
           </CardSubtitle>
           <CardSubtitle>{date}</CardSubtitle>
-          <CardText tag="div" className="description my-3 text-left">
+          <CardText tag="div" className="description my-3 text-center">
             {desc}
             <ul>
               {descBullets
@@ -43,7 +44,7 @@ const ExperienceCard = ({ companyLogo, company, role, date, desc, descBullets }:
           </CardText>
         </CardBody>
       </Card>
-    </Col>
+    // </Col>
   );
 };
 
