@@ -9,16 +9,16 @@ const Projects = () => {
     projects && (
       <section className="section section-lg py-5">
         <Container>
-          {/* <div className="d-flex p-4 justify-content-center"> */}
+          <div className="d-flex p-4 justify-content-center"> 
             {/* <div>
               <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
                 <i className="ni ni-laptop text-info" />
               </div>
             </div> */}
-            {/* <div className="pl-4">
-              <h4 className="display-3 text-info">My Side Projects</h4>
-            </div> */}
-          {/* </div> */}
+            <div className="pl-4">
+              <h4 className="display-3 text-info">Some of My Side Projects</h4>
+            </div> 
+           </div>
           <div className="projects-container">
             {projects.map((data, i) => (
               <div key={i} className="project-item">
