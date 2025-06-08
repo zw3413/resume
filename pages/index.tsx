@@ -12,9 +12,22 @@ import { openSource } from "../portfolio";
 import SEO from "../components/SEO";
 import { GithubUserType } from "../types";
 
+const styles = {
+  mainContainer: {
+    backgroundColor: 'rgb(29, 31, 33)',
+    color: 'rgb(43, 188, 138)',
+    minHeight: '100vh',
+    width: '100%',
+    fontFamily: 'Menlo, "Meslo LG", monospace',
+    '*': {
+      fontFamily: 'Menlo, "Meslo LG", monospace'
+    }
+  }
+};
+
 export default function Home({ githubProfileData }: { githubProfileData: any }) {
   return (
-    <div>
+    <div style={styles.mainContainer}>
       <SEO />
       {/* <Navigation />
       <Greetings /> */}

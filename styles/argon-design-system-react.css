@@ -13851,7 +13851,7 @@ a.text-success:focus {
 }
 
 .text-info {
-	color: #1d8cf8 !important;
+	color: rgb(43, 188, 138) !important; 
 }
 
 a.text-info:hover,
@@ -14410,7 +14410,7 @@ button.bg-lighter:focus {
 }
 
 .bg-gradient-info {
-	background: linear-gradient(35deg, #1d8cf8 0, #1171ef 100%) !important;
+	background: linear-gradient(35deg, #1d8cf8 0, rgb(43, 188, 138)  100%) !important;
 }
 
 .bg-gradient-warning {
@@ -14705,7 +14705,7 @@ button.section-darker:focus {
 }
 
 .bg-gradient-info {
-	background: linear-gradient(35deg, #1d8cf8 0, #1171ef 100%) !important;
+	background: linear-gradient(35deg, rgb(43, 188, 138)  0, rgb(43, 188, 138)  100%) !important;
 }
 
 .bg-gradient-warning {

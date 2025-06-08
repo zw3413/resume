@@ -13,16 +13,22 @@ const ProjectsCard = ({ name, desc, github, link, media, video, tech }: ProjectT
       <Card 
         className="shadow-lg--hover shadow mt-4 project-card" 
         onClick={toggle}
-        style={{ cursor: 'pointer' }}
+        style={{ 
+          cursor: 'pointer',
+          backgroundColor: 'rgb(29, 31, 33)',
+          border: 'none',
+          userSelect: 'none',
+          caretColor: 'transparent'
+        }}
       >
-        <CardBody className="p-4 d-flex flex-column">
+        <CardBody className="p-4 d-flex flex-column" style={{ userSelect: 'none', caretColor: 'transparent' }}>
           {/* Media Section */}
           <div className="media-container mb-4">
             {media && (
               <div style={{ 
                 overflow: 'hidden', 
                 borderRadius: '8px',
-                backgroundColor: '#f8f9fa'
+                backgroundColor: 'rgb(29, 31, 33)'
               }}>
                 <img 
                   src={media} 
@@ -40,7 +46,7 @@ const ProjectsCard = ({ name, desc, github, link, media, video, tech }: ProjectT
               <div style={{ 
                 borderRadius: '8px', 
                 overflow: 'hidden',
-                backgroundColor: '#f8f9fa'
+                backgroundColor: 'rgb(29, 31, 33)'
               }}>
                 <div className="embed-responsive embed-responsive-16by9">
                   <iframe
@@ -59,7 +65,7 @@ const ProjectsCard = ({ name, desc, github, link, media, video, tech }: ProjectT
             {/* Title and Tags */}
             <div className="mb-3">
               <h3 className="mb-2" style={{ 
-                color: '#1d8cf8',
+                color: 'rgb(43, 188, 138)',
                 fontWeight: '600',
                 fontSize: '1.5rem'
               }}>{name}</h3>
@@ -69,7 +75,7 @@ const ProjectsCard = ({ name, desc, github, link, media, video, tech }: ProjectT
                     key={index} 
                     className="tag" 
                     style={{
-                      backgroundColor: '#1d8cf8',
+                      backgroundColor: 'rgb(43, 188, 138)',
                       color: 'white',
                       padding: '4px 12px',
                       borderRadius: '20px',
@@ -85,7 +91,7 @@ const ProjectsCard = ({ name, desc, github, link, media, video, tech }: ProjectT
 
             {/* Description */}
             <p className="description mb-4" style={{ 
-              color: '#525f7f',
+              color: 'rgb(43, 188, 138)',
               fontSize: '1rem',
               lineHeight: '1.6'
             }}>{desc}</p>
@@ -102,7 +108,10 @@ const ProjectsCard = ({ name, desc, github, link, media, video, tech }: ProjectT
                   aria-label="Github"
                   style={{
                     borderRadius: '8px',
-                    padding: '8px 16px'
+                    padding: '8px 16px',
+                    backgroundColor: 'rgb(29, 31, 33)',
+                    border: '1px solid rgb(43, 188, 138)',
+                    color: 'rgb(43, 188, 138)'
                   }}
                   onClick={(e) => e.stopPropagation()}
                 >
@@ -120,9 +129,10 @@ const ProjectsCard = ({ name, desc, github, link, media, video, tech }: ProjectT
                   rel="noopener"
                   aria-label="Demo"
                   style={{
-                    backgroundColor: '#1d8cf8',
+                    backgroundColor: 'rgb(43, 188, 138)',
                     borderRadius: '8px',
-                    padding: '8px 16px'
+                    padding: '8px 16px',
+                    border: 'none'
                   }}
                   onClick={(e) => e.stopPropagation()}
                 >
@@ -139,7 +149,7 @@ const ProjectsCard = ({ name, desc, github, link, media, video, tech }: ProjectT
 
       {/* Modal */}
       <Modal isOpen={modal} toggle={toggle} size="xl" centered>
-        <ModalBody className="p-0">
+        <ModalBody className="p-0" style={{ backgroundColor: 'rgb(29, 31, 33)', border: 'none' }}>
           <div className="modal-content">
             {/* Media Section */}
             <div className="modal-media">
@@ -159,9 +169,9 @@ const ProjectsCard = ({ name, desc, github, link, media, video, tech }: ProjectT
             </div>
 
             {/* Content Section */}
-            <div className="modal-body">
+            <div className="modal-body" style={{ backgroundColor: 'rgb(29, 31, 33)' }}>
               <h3 className="mb-3" style={{ 
-                color: '#1d8cf8',
+                color: 'rgb(43, 188, 138)',
                 fontWeight: '600',
                 fontSize: '1.75rem'
               }}>{name}</h3>
@@ -172,7 +182,7 @@ const ProjectsCard = ({ name, desc, github, link, media, video, tech }: ProjectT
                     key={index} 
                     className="tag" 
                     style={{
-                      backgroundColor: '#1d8cf8',
+                      backgroundColor: 'rgb(43, 188, 138)',
                       color: 'white',
                       padding: '4px 12px',
                       borderRadius: '20px',
@@ -186,7 +196,7 @@ const ProjectsCard = ({ name, desc, github, link, media, video, tech }: ProjectT
               </div>
 
               <p className="description mb-4" style={{ 
-                color: '#525f7f',
+                color: 'rgb(43, 188, 138)',
                 fontSize: '1.1rem',
                 lineHeight: '1.6'
               }}>{desc}</p>
@@ -202,7 +212,10 @@ const ProjectsCard = ({ name, desc, github, link, media, video, tech }: ProjectT
                     aria-label="Github"
                     style={{
                       borderRadius: '8px',
-                      padding: '8px 16px'
+                      padding: '8px 16px',
+                      backgroundColor: 'rgb(29, 31, 33)',
+                      border: '1px solid rgb(43, 188, 138)',
+                      color: 'rgb(43, 188, 138)'
                     }}
                   >
                     <span className="btn-inner--icon">
@@ -219,9 +232,10 @@ const ProjectsCard = ({ name, desc, github, link, media, video, tech }: ProjectT
                     rel="noopener"
                     aria-label="Demo"
                     style={{
-                      backgroundColor: '#1d8cf8',
+                      backgroundColor: 'rgb(43, 188, 138)',
                       borderRadius: '8px',
-                      padding: '8px 16px'
+                      padding: '8px 16px',
+                      border: 'none'
                     }}
                   >
                     <span className="btn-inner--icon">

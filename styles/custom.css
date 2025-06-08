@@ -10,7 +10,7 @@
 
 /* Modal styles */
 .modal-content {
-  background: white;
+
   border-radius: 12px;
   overflow: hidden;
   display: flex;
@@ -22,7 +22,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #f8f9fa;
+
   padding: 1rem;
 }
 
@@ -48,9 +48,9 @@
 
 /* Global color scheme */
 :root {
-  --primary-color: #1d8cf8;
+  --primary-color: rgb(43, 188, 138);
   --text-color: #525f7f;
-  --background-color: #ffffff;
+  --background-color: rgb(29, 31, 33);
   --card-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 

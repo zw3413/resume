@@ -7,7 +7,14 @@ import { max } from "moment";
 const ExperienceCard = ({ companyLogo, company, role, date, desc, descBullets }: ExperienceType) => {
   return (
     // <Col lg="6">
-      <Card style={{ flex: 1 }} className="shadow-lg--hover my-4 shadow border-0 text-center rounded h-100">
+      <Card 
+        style={{ 
+          flex: 1,
+          backgroundColor: 'rgb(29, 31, 33)',
+          border: '1px solid rgb(43, 188, 138)'
+        }} 
+        className="shadow-lg--hover my-4 shadow border-0 text-center rounded h-100"
+      >
         <CardBody className="">
           <img
             src={companyLogo}
@@ -25,16 +32,16 @@ const ExperienceCard = ({ companyLogo, company, role, date, desc, descBullets }:
             className="shadow mb-3"
             alt={companyLogo}
           />
-          <CardTitle tag="h4" className="mb-2">
+          <CardTitle tag="h4" className="mb-2" style={{ color: 'rgb(43, 188, 138)' }}>
             {company}
           </CardTitle>
-          <CardSubtitle tag="h5" className="mb-2">
+          <CardSubtitle tag="h5" className="mb-2" style={{ color: 'rgb(43, 188, 138)' }}>
             {role}
           </CardSubtitle>
-          <CardSubtitle>{date}</CardSubtitle>
-          <CardText tag="div" className="description my-3 text-center">
+          <CardSubtitle style={{ color: 'rgb(43, 188, 138)' }}>{date}</CardSubtitle>
+          <CardText tag="div" className="description my-3 text-center" style={{ color: 'rgb(43, 188, 138)' }}>
             {desc}
-            <ul>
+            <ul style={{ color: 'rgb(43, 188, 138)' }}>
               {descBullets
                 ? descBullets.map(desc => {
                     return <li key={desc}>{desc}</li>;
