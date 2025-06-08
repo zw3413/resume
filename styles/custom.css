@@ -1,18 +1,13 @@
-/* Import fonts */
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap');
-
 /* Global styles */
 :root {
   --primary-color: #1d8cf8;
   --text-color: #525f7f;
   --background-color: rgb(29, 31, 33);
   --card-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-  --font-family: 'JetBrains Mono', 'Menlo', 'Meslo LG', monospace;
 }
 
 /* Apply font family globally */
 body {
-  font-family: var(--font-family);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -29,7 +24,6 @@ body {
 
 /* Modal styles */
 .modal-content {
-
   border-radius: 12px;
   overflow: hidden;
   display: flex;
@@ -41,7 +35,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
   padding: 1rem;
 }
 
