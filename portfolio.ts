@@ -228,7 +228,7 @@ export const projects: ProjectType[] = [
   {
     name: "Blast-Vision",
     //media :"gif/blast_vision.gif",
-    video :"https://www.youtube.com/embed/WSHFs48KRRk?si=VEhk7bVWZzowqUge",
+    video :"https://www.youtube.com/embed/s9x71Xs5eQI?si=azIjGukpSxs63unF",
     tech :["OpenCV","Machine Learning","Kalman Filter", "TensorFlow"],
     desc: "A system for balsting evaluation with computer vision, this is a project that we use to attend the Google DevFest. ",
     github: "https://github.com/zw3413/blast",
