@@ -269,13 +269,13 @@ export const projects: ProjectType[] = [
     link: "https://www.youtube.com/watch?v=vOgjJQa6MWA",
   },
   
-  {
-    name: "SubtitleX.xyz",
-    tech:["FastWhisper","Stripe","Chrome Extension"],
-    desc: "A group of application including webUI, python tools, chrome extension ...  to provide a comprehensive online subtitle experience. ",
-    github: "https://github.com/zw3413/subtitles",
-    link: "https://subtitlex.xyz",
-  },
+  // {
+  //   name: "SubtitleX.xyz",
+  //   tech:["FastWhisper","Stripe","Chrome Extension"],
+  //   desc: "A group of application including webUI, python tools, chrome extension ...  to provide a comprehensive online subtitle experience. ",
+  //   github: "https://github.com/zw3413/subtitles",
+  //   link: "https://subtitlex.xyz",
+  // },
 
 
 ];
