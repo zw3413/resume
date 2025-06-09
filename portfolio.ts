@@ -218,10 +218,10 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
-    name: "eeg work",
+    name: "EEG work",
     media :"img/icons/common/eeg_view.png",
     tech : ["Machine Learning","SVM", "EEGLAB"],
-    desc: "Analyse and classify non-linear dynamic feature of EEG data with Machine Learning Algorithms. ",
+    desc: "Analyse and classify non-linear dynamic feature of EEG (Electroencephalogram) data with Machine Learning Algorithms. ",
     //github: "https://github.com/zw3413/ytb_nav_frontend",
     //link: "https://you.bakers.top",
   },
@@ -237,9 +237,9 @@ export const projects: ProjectType[] = [
   {
     name: "youtube helper",
     media :"gif/xiayou.gif",
-    tech : ["AutoGen","LangChain"],
+    tech : ["AutoGen","LangChain","Python","Microservice","Faster-Whisper","Redis"],
     desc: "Fast youtube video comprehension, featuring summarization, outlining, and intuitive playback controls. ",
-    github: "https://github.com/zw3413/ytb_nav_frontend",
+    github: "https://github.com/zw3413/ytb-helper",
     link: "https://you.bakers.top",
   },
   {
